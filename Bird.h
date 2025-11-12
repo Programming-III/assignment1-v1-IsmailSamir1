@@ -1,14 +1,13 @@
-#ifndef BIRD_H
-#define BIRD_H
-
+#include <iostream>
 #include "Animal.h"
+using namespace std;
 
-//define class bird here 
+class Bird:Animal{
 
+private: 
+float wingSpan;
 
+public:
+Bird(float wing);
 
-
-
-
-
-#endif
+};
